@@ -1,4 +1,3 @@
-numbers = [12,5,27,8,14]
 def analyser(numbers):
     smallest = numbers[0]
     largest = numbers[0]
@@ -12,4 +11,6 @@ def analyser(numbers):
 
     average = total /len(numbers)
     return f"Smallest: {smallest}\nLargest: {largest}\nTotal: {total}\nAverage: {average}"
+
+numbers = [12,5,27,8,14]
 print(analyser(numbers))
